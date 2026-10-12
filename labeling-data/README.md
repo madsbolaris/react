@@ -11,13 +11,17 @@ or a statistically representative training/evaluation set.
 
 ## Files
 
+- [Root dataset card](../README.md): standard Hugging Face `configs.data_files`
+  and `dataset_info.features` metadata, including nested types and multi-label
+  `List(ClassLabel)` semantics. The `examples` loading split is not a train/test
+  assignment.
 - [samples.jsonl](samples.jsonl): one complete PR record per line, in UTF-8 JSONL.
 - [labels.json](labels.json): the six distinct labels observed on these PRs,
   with their actual GitHub IDs, descriptions, and colors.
 
 This is an orphan data-only branch: its initial commit has no parents and
 inherits no application files or history from another branch. It contains only
-this dataset, label catalog, documentation, and the source excerpts'
+this dataset, Hugging Face dataset card, label catalog, documentation, and the source excerpts'
 [MIT license](LICENSE) and copyright notice. The fork's default branch is
 unchanged.
 
