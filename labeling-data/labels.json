@@ -1,0 +1,38 @@
+[
+  {
+    "id": 7558650781,
+    "name": "integration-tests: failing",
+    "description": "Changes in this PR cause breaking changes in gh/gh",
+    "color": "fb8389"
+  },
+  {
+    "id": 6707785144,
+    "name": "integration-tests: passing",
+    "description": "Changes in this PR do NOT cause breaking changes in gh/gh",
+    "color": "9ceda0"
+  },
+  {
+    "id": 6707790945,
+    "name": "integration-tests: recommended",
+    "description": "This change needs to be tested for breaking changes. See https://arc.net/l/quote/tdmpakpm",
+    "color": "ffec9e"
+  },
+  {
+    "id": 7704763415,
+    "name": "integration-tests: skipped manually",
+    "description": "Changes in this PR do not require an integration test",
+    "color": "e3f2b5"
+  },
+  {
+    "id": 3470925358,
+    "name": "skip changeset",
+    "description": "This change does not need a changelog",
+    "color": "BFDADC"
+  },
+  {
+    "id": 7181619333,
+    "name": "staff",
+    "description": "Author is a staff member",
+    "color": "95DDEF"
+  }
+]
