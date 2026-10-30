@@ -1,4 +1,8 @@
-# PR labeling dataset: first 10 real examples
+# PR labeling dataset: 1,000 examples (10 originals repeated)
+
+**Prototype scale fixture:** `samples.jsonl` contains **1,000 rows**, made by repeating the same 10 original examples 100 times. There are only **10 unique source PRs**. Source IDs and provenance are intentionally unchanged and repeated; this is not 1,000 unique or newly collected examples. The original source-snapshot counts below describe the 10 unique examples, not the duplicated row totals.
+
+
 
 This is an unencrypted snapshot of **10 real merged pull requests from the
 public [primer/react](https://github.com/primer/react) repository**. Nothing in

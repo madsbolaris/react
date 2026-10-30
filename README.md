@@ -115,7 +115,11 @@ dataset_info:
           '5': staff
 ---
 
-# Primer React PR labeling examples
+# Primer React PR labeling examples: 1,000-row scale fixture
+
+**Prototype scale fixture:** `samples.jsonl` contains **1,000 rows**, made by repeating the same 10 original examples 100 times. There are only **10 unique source PRs**. Source IDs and provenance are intentionally unchanged and repeated; this is not 1,000 unique or newly collected examples. The original source-snapshot counts below describe the 10 unique examples, not the duplicated row totals.
+
+
 
 This data-only branch contains ten real public Primer React pull requests.
 The YAML above uses **Hugging Face Datasets dataset-card metadata**, not a custom
