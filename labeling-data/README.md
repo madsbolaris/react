@@ -1,6 +1,6 @@
 # PR labeling dataset: 1,000 examples (10 originals repeated)
 
-**Prototype scale fixture:** `samples.jsonl` contains **1,000 rows**, made by repeating the same 10 original examples 100 times. There are only **10 unique source PRs**. Source IDs and provenance are intentionally unchanged and repeated; this is not 1,000 unique or newly collected examples. The original source-snapshot counts below describe the 10 unique examples, not the duplicated row totals.
+**Prototype scale fixture:** `samples.jsonl` contains **1,000 rows**, made by repeating the same 10 original examples 100 times. There are only **10 unique source PRs**. Source provenance and example content are unchanged; copied rows have unique IDs with a `::copy-NNN` suffix; this is not 1,000 unique or newly collected examples. The original source-snapshot counts below describe the 10 unique examples, not the duplicated row totals.
 
 
 
